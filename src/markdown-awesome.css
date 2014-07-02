@@ -1,0 +1,13 @@
+#markdown-textarea {
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+#markdown-input {
+    width: -webkit-calc(100% - 20px);
+    height: 100%;
+}
+#preview {
+    float: left;
+    width: -webkit-calc(50% - 20px);
+}
