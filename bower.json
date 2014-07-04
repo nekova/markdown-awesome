@@ -1,7 +1,7 @@
 {
   "name": "markdown-awesome",
-  "version": "0.0.0",
-  "description": "My awesome Custom Element",
+  "version": "0.0.1",
+  "description": "Markdown Editor",
   "license": "MIT",
   "main": "dist/markdown-editor.html",
   "keywords": [
