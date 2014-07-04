@@ -4,12 +4,12 @@
 <!-- Define your custom element -->
 <polymer-element name="markdown-preview">
     <template>
-        <div id="preview">
-        </div>
+        <link rel="stylesheet" href="../../highlightjs/styles/monokai.css">
+        <span id="preview"></span>
+        <shadow></shadow>
     </template>
     <script>
         Polymer('markdown-preview', {
         });
     </script>
-
 </polymer-element>

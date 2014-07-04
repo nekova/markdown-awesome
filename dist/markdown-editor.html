@@ -20,14 +20,13 @@
             "maxRows": '',
             "multiline": true,
             inputValueChanged: function() {
-                document.querySelector('markdown-preview').innerHTML = marked(this.inputValue);
+                document.querySelector('markdown-preview').$.preview.innerHTML = marked(this.inputValue);
             },
             ready: function() {
                 marked.setOptions({
                     highlightClass: 'hljs',
                     gfm: true,
                     tables: true,
-                    langPrefix: '',
                     highlight: function(code) {
                         return hljs.highlightAuto(code).value;
                     }
