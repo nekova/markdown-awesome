@@ -1,6 +1,6 @@
 # &lt;markdown-awesome&gt;
 
-> My awesome Custom Element
+> real-time markdown preview and syntax highlighting
 
 ## Demo
 
